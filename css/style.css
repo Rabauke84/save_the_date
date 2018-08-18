@@ -1,3 +1,129 @@
-body {
-    background-color: #FA8072 
+html {
+    height: 100%;
 }
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1 !important;
+    background-color: #7F241E;
+}
+
+.container {
+    height: 100%;
+}
+
+.jumbotron {
+    margin-bottom: -80px;
+}
+
+.container, .jumbotron {
+    background-color: white;
+}
+
+img {
+    height: auto;
+}
+
+.my_text1 {
+    letter-spacing: 0.6em;
+}
+
+.my_text2 {
+    letter-spacing: 0.3em;
+}
+
+.font_header {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 70%;
+    }
+    img {
+        width: 45%;
+    }
+    .jumbotron {
+        margin-bottom: 0px !important;
+    }
+    .my_text1 {
+        letter-spacing: 0.0em;
+    }
+    
+    .my_text2 {
+        letter-spacing: 0.0em;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 700px) {
+    .container {
+        width: 70%;
+    }
+    img {
+        width: 60%;
+    }
+    .jumbotron {
+        margin-bottom: 0px;
+    }
+    .my_text1 {
+        letter-spacing: 0.0em;
+    }
+    
+    .my_text2 {
+        letter-spacing: 0.0em;
+    }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
+    .container {
+        width: 70%;
+    }
+    img {
+        width: 24%;
+    }
+    .jumbotron {
+        margin-bottom: -60px;
+    }
+    .my_text1 {
+        letter-spacing: 0.3em;
+    }
+    
+    .my_text2 {
+        letter-spacing: 0.1em;
+    }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1500px) {
+    .container {
+        width: 70%;
+    }
+    img {
+        width: 30%;
+    }
+    .jumbotron {
+        margin-bottom: -60px;
+    }
+    .my_text1 {
+        letter-spacing: 0.0em;
+    }
+    
+    .my_text2 {
+        letter-spacing: 0.0em;
+    }
+}
+
+@media only screen and (min-width: 1501px) {
+    .jumbotron {
+        margin-bottom: -20px;
+    }
+    .my_text1 {
+        letter-spacing: 0.0em;
+    }
+    
+    .my_text2 {
+        letter-spacing: 0.0em;
+    }
+}
+
