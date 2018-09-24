@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1 !important;
-    background-color: #7F241E;
+    background-color: #631A14;
 }
 
 .container {
@@ -43,7 +43,7 @@ img {
         width: 70%;
     }
     img {
-        width: 45%;
+        width: 80%;
     }
     .jumbotron {
         margin-bottom: 0px !important;
@@ -62,7 +62,7 @@ img {
         width: 70%;
     }
     img {
-        width: 60%;
+        width: 100%;
     }
     .jumbotron {
         margin-bottom: 0px;
@@ -81,7 +81,7 @@ img {
         width: 70%;
     }
     img {
-        width: 24%;
+        width: 80%;
     }
     .jumbotron {
         margin-bottom: -60px;
@@ -100,7 +100,7 @@ img {
         width: 70%;
     }
     img {
-        width: 30%;
+        width: 90%;
     }
     .jumbotron {
         margin-bottom: -60px;
@@ -115,6 +115,9 @@ img {
 }
 
 @media only screen and (min-width: 1501px) {
+    img {
+        width: 70%;
+    }
     .jumbotron {
         margin-bottom: -20px;
     }

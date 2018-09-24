@@ -1,0 +1,41 @@
+{
+  "sftp://192.168.178.80:22@root": {
+    ".bashrc": {
+      "type": "-",
+      "size": 570,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".bash_history": {
+      "type": "-",
+      "size": 1892,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".aptitude": {},
+    ".mysql_history": {
+      "type": "-",
+      "size": 100,
+      "lmtime": 0,
+      "modified": false
+    },
+    ".profile": {
+      "type": "-",
+      "size": 140,
+      "lmtime": 0,
+      "modified": false
+    },
+    "var": {
+      "www": {
+        "html": {},
+        "index.html": {
+          "type": "-",
+          "size": 1649,
+          "lmtime": 1537717131816,
+          "modified": false
+        }
+      }
+    }
+  },
+  "$version": 1
+}
